@@ -17,20 +17,13 @@ h1 {
   letter-spacing: 5px;
   word-spacing: 5px;
   font-size: 200%;
-}
-
-/* the hashtag in a CSS selector selects an element by id, e.g., id="content" */
-#content {
-  margin: 10px;
-  padding: 10px;
-  border: solid 1px #888;
-  background-color: #84B59F;
+  background-color: #000000;
 }
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 .minor-section {
   padding: 10px;
   margin-bottom: 10px;
-  border: solid 1px #888;
-  background-color: #A3C9A8;
+  border: solid 1px #000000;
+  background-color: #a0a0c0;
 }
