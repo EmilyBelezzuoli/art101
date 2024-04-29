@@ -6,7 +6,7 @@
 // Declare Variables
 let carMake = "MiniCooper";
 let carModel = "Hardtop 2 Door";
-let CarYear = 2022;
+let carYear = 2022;
 let carColor = "Grey and blue";
 let ownIt = true;
 let currentYear = 2024;
@@ -14,8 +14,11 @@ let carAge = currentYear-carYear;
 
 
 // Output Variables
-document.writeln("Car make: ",CarMake,"<br>");
-document.writeln("Car model: ",CarModel,"<br>");
-document.writeln("Car year: ",CarYear,"<br>");
-document.writeln("Car color: ",CarColor,"<br>");
-document.writeln("Car age: ",carAge,"<br>");
+document.writeln("Car make: " + carMake + "<br>");
+document.writeln("Car model: " + carModel + "<br>");
+document.writeln("Car year: " + carYear + "<br>");
+document.writeln("Car color: " + carColor + "<br>");
+document.writeln("Car age: " + carAge + "<br>");
+
+document.writeln("Car Make: <pre>", 
+    JSON.stringify(myMainRide, null, '\t'), "</pre>");
