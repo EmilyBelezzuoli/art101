@@ -18,15 +18,7 @@ myMainRide = {
 }
 
     // output-
-document.writeln(" my transportation: ",myTransport,"<br>"); 
+document.writeln(" my transportation: ",mytransport,"<br>"); 
 
 document.writeln(" My Main Ride: <pre>",
-    JSON.stringify(myMainRide, null, '\t'), "</pre>");
-
-    document.writeln("Car make: " + carMake + "<br>");
-document.writeln("Car model: " + carModel + "<br>");
-document.writeln("Car year: " + carYear + "<br>");
-document.writeln("Car color: " + carColor + "<br>");
-document.writeln("Car age: " + carAge + "<br>");
-document.writeln("Car Make: <pre>", 
     JSON.stringify(myMainRide, null, '\t'), "</pre>");
