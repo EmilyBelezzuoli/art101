@@ -19,12 +19,10 @@
 //     console.log("nameSorted =", nameSorted);
 //     return nameSorted;
 
-
 //     // output-
 // document.writeln("Oh hey, I've fixed your name: ", 
 //     sortUserName(), "</br>");
-
-    
+ 
 //bonus task five
     function sortUserName(userName) {   
      
@@ -48,6 +46,3 @@
     //output 
 document.writeln("Oh hey, I've fixed your name: ", 
 sortUserName(userName), "</br>");
-
-
-
