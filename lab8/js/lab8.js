@@ -26,5 +26,11 @@ let results = array.map(function(x){
 console.log("Squareroot of array:", results);
 
 //     // output-
-// document.writeln("Oh hey, I've fixed your name: ", 
-//     sortUserName(), "</br>");x
+// Your map results data
+let mapResults = "<br>My array"+ array+ "<br>Test of evenness of array:"+ result+ "<br>Squareroot of array:"+ results;
+
+
+
+"Your map results here";
+// Use jQuery
+$("#output").html(mapResults);
