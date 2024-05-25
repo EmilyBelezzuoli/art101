@@ -4,9 +4,6 @@
 // Author: Emily Belezzuoli
 // Date: May 21, 2024
 
-
-x = 121;
-
 function sortingHat(str) {
   let length = str.length;
   const numOfHouses = 4;
@@ -22,8 +19,8 @@ function sortingHat(str) {
   }
 }
 
-const house = sortingHat("azad azizyan");
-console.log(house)
+// const house = sortingHat("azad azizyan");
+// console.log(house)
 
 let myButton = document.getElementById("button");
 myButton.addEventListener("click", function() {
