@@ -6,14 +6,14 @@
 
 
     URL = "https://api.nasa.gov/planetary/apod?api_key=qr9f0LJKqcoYrfdwgtGBfiBAclufuFckciPp1CFm"
-    
+
     //attach w click
-    $('#action').click(function() {
+    $("#action").click(function() {
 
   // Using the core $.ajax() method\
   $.ajax({
 
-  
+ 
     // The URL for the request (from the api docs)
     url: URL,
     // The data to send (will be converted to a query string)
@@ -21,10 +21,10 @@
 
     // Whether this is a POST or GET request
     type: "GET",
-
+  
 //succeeds
-});
-  .done(function(data)) {
+})
+  .done(function(data) {
     console.log(data);
     var printableDate = "<pre>" + JSON.stringify(data, null, 2) + "</pre>";
       //make JSON printable
@@ -35,4 +35,5 @@
       $("#output").append("<p>" + data.explanation);
   
     })
+
 });
